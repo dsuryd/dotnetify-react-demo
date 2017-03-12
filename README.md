@@ -3,8 +3,21 @@ DotNetify makes it super easy to connect your React app to a cross-platform .NET
 
 This real-time "Hello World" demo is created with [create-react-app](https://github.com/facebookincubator/create-react-app) and runs on .NET Core back-end.
 
+<img src="http://dotnetify.net/content/images/dotnetify-react-demo.gif">
+
+###How To Run
+Prerequisites: [Node.js](https://nodejs.org) and [.NET Core SDK](https://www.microsoft.com/net/core#windowscmd).
+
+```
+npm install
+dotnet restore
+npm start
+```
+
+
+###Documentation
 Visit [http://dotnetify.net/react](http://dotnetify.net/react) for documentation and live demo.
 
-<img src="http://dotnetify.net/content/images/dotnetify-react-demo.gif">
+
 
 
