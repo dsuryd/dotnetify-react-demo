@@ -6,6 +6,9 @@
     <Folder Include="wwwroot\" />
   </ItemGroup>
   <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.DotNet.Watcher.Tools" Version="1.0.0-msbuild3-final" />
+  </ItemGroup>
+  <ItemGroup>
     <PackageReference Include="DotNetify.SignalR" Version="2.1.0-pre" />
     <PackageReference Include="Microsoft.AspNetCore" Version="1.1.1" />
   </ItemGroup>

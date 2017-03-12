@@ -8,7 +8,7 @@ namespace dotnetify_react_demo
     {
         private Timer _timer;
         public string Greetings => "Hello World!";
-        public DateTime ServerTime => DateTime.Now;
+        public string ServerTime => DateTime.Now.ToString();
 
         public HelloWorld()
         {

@@ -13,7 +13,7 @@
     "react-scripts": "0.9.5"
   },
   "scripts": {
-    "start": "concurrently \"react-scripts start\" \"dotnet run\" --kill-others",
+    "start": "concurrently \"react-scripts start\" \"dotnet watch run\" --kill-others",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"

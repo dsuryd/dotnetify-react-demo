@@ -9,9 +9,14 @@ class HelloWorld extends React.Component {
     }
     render() {
         return (
-            <div>
-                {this.state.Greetings}<br />
-                Server time is: {this.state.ServerTime}
+            <div className="App-intro">
+                <p>{this.state.Greetings}</p>
+                <p>Server time is: {this.state.ServerTime}</p>
+
+                <p>
+                    You can also edit <code>HelloWorld.cs</code>, save 
+                    to rebuild the server, and do page reload.
+                </p>
             </div>
         );
     }
