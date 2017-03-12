@@ -1,8 +1,0 @@
-D:\Work Stuff\Open Source\dotnetify-react-demo\bin\Debug\netcoreapp1.1\dotnetify-react-demo.deps.json
-D:\Work Stuff\Open Source\dotnetify-react-demo\bin\Debug\netcoreapp1.1\dotnetify-react-demo.runtimeconfig.json
-D:\Work Stuff\Open Source\dotnetify-react-demo\bin\Debug\netcoreapp1.1\dotnetify-react-demo.runtimeconfig.dev.json
-D:\Work Stuff\Open Source\dotnetify-react-demo\bin\Debug\netcoreapp1.1\dotnetify-react-demo.dll
-D:\Work Stuff\Open Source\dotnetify-react-demo\bin\Debug\netcoreapp1.1\dotnetify-react-demo.pdb
-D:\Work Stuff\Open Source\dotnetify-react-demo\obj\Debug\netcoreapp1.1\dotnetify-react-demo.AssemblyInfo.cs
-D:\Work Stuff\Open Source\dotnetify-react-demo\obj\Debug\netcoreapp1.1\dotnetify-react-demo.dll
-D:\Work Stuff\Open Source\dotnetify-react-demo\obj\Debug\netcoreapp1.1\dotnetify-react-demo.pdb
