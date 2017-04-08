@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using DotNetify;
 
-namespace helloworld
+namespace livechart
 {
    public class Startup
    {
@@ -21,7 +21,7 @@ namespace helloworld
          app.UseDotNetify();
          app.Run(async (context) =>
          {
-            await context.Response.WriteAsync("HelloWorld server");
+            await context.Response.WriteAsync("LiveChart server");
          });
       }
    }

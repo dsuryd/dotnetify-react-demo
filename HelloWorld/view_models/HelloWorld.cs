@@ -2,7 +2,7 @@ using System;
 using System.Threading;
 using DotNetify;
 
-namespace dotnetify_react_demo
+namespace helloworld
 {
     public class HelloWorld : BaseVM
     {
