@@ -14,7 +14,8 @@ npm start
 #### HelloWorld
 This real-time "Hello World" demo is created with [create-react-app](https://github.com/facebookincubator/create-react-app) and runs on .NET Core back-end.
 
-<img src="http://dotnetify.net/content/images/dotnetify-react-demo.gif?1">
+#### LiveChart
+Real-time chart using [ReactiveX](http://reactivex.io/) stream on the back-end.
 
 ### Documentation
 Visit [http://dotnetify.net/react](http://dotnetify.net/react) for documentation and live demo.
