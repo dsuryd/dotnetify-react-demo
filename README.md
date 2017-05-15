@@ -17,6 +17,9 @@ This real-time "Hello World" demo is created with [create-react-app](https://git
 #### LiveChart
 Real-time chart using [ReactiveX](http://reactivex.io/) stream on the back-end.
 
+#### Promise
+Real-time promise component to show progress status while data is being loaded on the back-end.
+
 ### Documentation
 Visit [http://dotnetify.net/react](http://dotnetify.net/react) for documentation and live demo.
 
