@@ -1,9 +1,8 @@
 import React from 'react';
-import dotnetify from 'dotnetify';
 import { Bar } from 'react-chartjs';
-import Promise from './Promise';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import { Step, Stepper, StepLabel } from 'material-ui/Stepper';
+import Promise from './Promise';
 
 const MyChartPromise = () => {
     const isFulfilled = resp => resp.DataArray !== null;
@@ -13,7 +12,11 @@ const MyChartPromise = () => {
             <Progress steps={resp.CompletedRequests} />
             <MyChart data={resp.DataArray} />
         </div>
-    return <Promise source="MyChart" isFulfilled={isFulfilled} while={showProgress} then={onFulfilled} />
+    return <Promise source="MyChart"
+        isFulfilled={isFulfilled} 
+        while={showProgress} 
+        then={onFulfilled}
+        commError={<CommError />} />
 }
 
 const Progress = ({ steps }) => {
@@ -30,6 +33,8 @@ const Progress = ({ steps }) => {
         </div>
     );
 }
+
+const CommError = () => <div>Connection is interrupted. This will resume when it recovers...</div>
 
 const MyChart = ({ data }) => {
     const chartData = {

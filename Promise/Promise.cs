@@ -22,6 +22,11 @@ namespace promise
       public IEnumerable<string> CompletedRequests => _responses.Keys;
       public int[] DataArray { get; set; }
 
+      public Action Restore => () => {
+          Changed(nameof(CompletedRequests));
+          Changed(nameof(DataArray));
+      };
+
       public MyChart()
       {
          var request1Stream = Rx.Observable.FromAsync(() => RequestAsync(3000, 1))
