@@ -7,7 +7,7 @@ export default class Promise extends React.Component {
         super(props);
         
         dotnetify.offline = true;
-        this.vm = dotnetify.react.connect(this.props.source, this);
+        this.vm = dotnetify.react.connect(this.props.viewModel, this);
         $(document).on("offline", (event, value) => this.handleOfflineEvent(value));
     }
 
@@ -27,8 +27,8 @@ export default class Promise extends React.Component {
         if (this.state.isOffline && this.props.commError)
             return this.props.commError;
 
-        return this.props.isFulfilled(this.state) ?
-            this.props.then(this.state) : this.props.while(this.state);
+        return this.props.isResolved(this.state) ?
+            this.props.children(this.state) : this.props.while(this.state);
     }
 }
 
