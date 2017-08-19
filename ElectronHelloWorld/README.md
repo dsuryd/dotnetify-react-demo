@@ -11,7 +11,7 @@ Install [Node.js](https://nodejs.org) and [.NET Core SDK](https://www.microsoft.
 dotnet restore
 dotnet build
 npm install
-npm build
+npm run build
 npm start
 ```
 
