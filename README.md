@@ -14,6 +14,9 @@ npm start
 #### HelloWorld
 This real-time "Hello World" demo is created with [create-react-app](https://github.com/facebookincubator/create-react-app) and runs on .NET Core back-end.
 
+### ElectronHelloWorld
+Real-time "Hello World" demo as cross-platform desktop app using [Electron](https://electron.atom.io/).
+
 #### LiveChart
 Real-time chart using [ReactiveX](http://reactivex.io/) stream on the back-end.
 
