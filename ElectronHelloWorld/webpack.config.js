@@ -12,8 +12,5 @@ module.exports = {
         query: { presets: ["es2015", "react"] }
       }
     ]
-  },
-  plugins: [
-    new webpack.ProvidePlugin({ "window.jQuery": "jquery" })
-  ]
+  }
 }
