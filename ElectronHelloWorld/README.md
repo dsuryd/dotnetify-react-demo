@@ -11,9 +11,12 @@ Install [Node.js](https://nodejs.org) and [.NET Core SDK](https://www.microsoft.
 dotnet restore
 dotnet build
 npm install
-npm build
+npm run build
 npm start
 ```
 
-
+Notice that the back-end server URL is set in the renderer.js. 
+```
+$.connection.hub.url = "http://localhost:5000/signalr";
+```
 

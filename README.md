@@ -11,6 +11,9 @@ npm install
 npm start
 ```
 
+#### ElectronHelloWorld
+Real-time "Hello World" demo as cross-platform desktop app using [Electron](https://electron.atom.io/).
+
 #### HelloWorld
 This real-time "Hello World" demo is created with [create-react-app](https://github.com/facebookincubator/create-react-app) and runs on .NET Core back-end.
 
