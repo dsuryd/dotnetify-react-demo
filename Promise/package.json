@@ -5,11 +5,11 @@
   "proxy": "http://localhost:5000/", 
   "dependencies": {
     "chart.js": "^1.1.1",
-    "dotnetify": "^2.0.5-beta",
-    "material-ui": "^0.18.0",
-    "react": "^15.4.2",
+    "dotnetify": "^2.0.7-beta",
+    "material-ui": "^0.19.4",
+    "react": "^15.6.2",
     "react-chartjs": "^0.8.0",
-    "react-dom": "^15.4.2"
+    "react-dom": "^15.6.2"
   },
   "devDependencies": {
     "concurrently": "^3.4.0",

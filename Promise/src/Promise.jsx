@@ -1,6 +1,5 @@
 import React from 'react';
 import dotnetify from 'dotnetify';
-import $ from 'jquery';
 
 export default class Promise extends React.Component {
     constructor(props) {
@@ -8,19 +7,8 @@ export default class Promise extends React.Component {
         
         dotnetify.offline = true;
         this.vm = dotnetify.react.connect(this.props.viewModel, this);
-        $(document).on("offline", (event, value) => this.handleOfflineEvent(value));
     }
-
     componentWillUnmount = () => this.vm.$destroy();
-
-    handleOfflineEvent = isOffline => {
-        if (this.state) {
-            this.setState({ offline: isOffline });
-            if (!isOffline)
-                this.vm.$dispatch({ Restore: "" });
-        }
-    }
-
     render() {
         if (!this.state)
             return null;
