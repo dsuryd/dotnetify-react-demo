@@ -1,6 +1,8 @@
 import React from 'react';
 import dotnetify from 'dotnetify';
 
+dotnetify.hubServerUrl = "http://localhost:5000";
+
 class HelloWorld extends React.Component {
     constructor(props) {
         super(props);
