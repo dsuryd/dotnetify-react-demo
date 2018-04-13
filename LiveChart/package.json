@@ -5,7 +5,7 @@
   "proxy": "http://localhost:5000/",
   "dependencies": {
     "chart.js": "^1.1.1",
-    "dotnetify": "^2.0.7-beta",
+    "dotnetify": "3.0.0-pre",
     "react": "^15.6.2",
     "react-chartjs": "^0.8.0",
     "react-dom": "^15.6.2"
