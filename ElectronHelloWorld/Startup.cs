@@ -10,14 +10,16 @@ namespace ElectronHelloWorld
    {
       public void ConfigureServices(IServiceCollection services)
       {
+         services.AddCors();
          services.AddMemoryCache();
          services.AddSignalR();
          services.AddDotNetify();
       }
       public void Configure(IApplicationBuilder app)
       {
+         app.UseCors(builder => builder.AllowAnyMethod().AllowAnyHeader().AllowAnyOrigin());
          app.UseWebSockets();
-         app.UseSignalR();
+         app.UseSignalR(routes => routes.MapDotNetifyHub());
          app.UseDotNetify();
          app.Run(async (context) =>
          {

@@ -17,6 +17,6 @@ npm start
 
 Notice that the back-end server URL is set in the renderer.js. 
 ```
-$.connection.hub.url = "http://localhost:5000/signalr";
+dotnetify.hubServerUrl = "http://localhost:5000";
 ```
 

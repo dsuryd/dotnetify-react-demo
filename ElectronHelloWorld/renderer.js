@@ -5,7 +5,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import HelloWorld from './HelloWorld.jsx'
-import $ from 'jquery';
-$.connection.hub.url = "http://localhost:5000/signalr";
+import dotnetify from 'dotnetify';
+
+dotnetify.hubServerUrl = "http://localhost:5000";
 
 ReactDOM.render(<HelloWorld />, document.getElementById('Content'))
